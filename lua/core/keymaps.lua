@@ -1,4 +1,5 @@
 vim.keymap.set('i', 'jj', '<ESC>')
+vim.keymap.set('n', '<Space><Space>', '^')
 
 vim.opt.backspace = '2'
 vim.opt.showcmd = true
