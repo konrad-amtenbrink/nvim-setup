@@ -1,5 +1,8 @@
+vim.g.mapleader = ' '
+vim.keymap.set('n', '<leader>pv', ':wq<Enter>')
+
 vim.keymap.set('i', 'jj', '<ESC>')
-vim.keymap.set('n', '<Space><Space>', '^')
+vim.keymap.set('n', '<leader><leader>', '^')
 
 vim.opt.backspace = '2'
 vim.opt.showcmd = true
