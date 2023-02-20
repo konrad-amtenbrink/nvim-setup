@@ -14,11 +14,20 @@ local packer_bootstrap = ensure_packer()
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   use 'ellisonleao/gruvbox.nvim'
+  use 'preservim/vim-markdown'
   use 'nvim-tree/nvim-tree.lua'
+  use 'godlygeek/tabular'
   use 'nvim-tree/nvim-web-devicons'
   use 'feline-nvim/feline.nvim'
   use 'nvim-treesitter/nvim-treesitter'
   use 'tpope/vim-fugitive'
+  -- install without yarn or npm
+use({
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+})
+
+use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
   use {
   'VonHeikemen/lsp-zero.nvim',
   branch = 'v1.x',

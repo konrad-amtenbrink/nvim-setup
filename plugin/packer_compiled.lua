@@ -130,6 +130,11 @@ _G.packer_plugins = {
     path = "/Users/konrad/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
+  ["markdown-preview.nvim"] = {
+    loaded = true,
+    path = "/Users/konrad/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
+    url = "https://github.com/iamcco/markdown-preview.nvim"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/Users/konrad/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -175,6 +180,11 @@ _G.packer_plugins = {
     path = "/Users/konrad/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  tabular = {
+    loaded = true,
+    path = "/Users/konrad/.local/share/nvim/site/pack/packer/start/tabular",
+    url = "https://github.com/godlygeek/tabular"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/konrad/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -184,6 +194,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/konrad/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-markdown"] = {
+    loaded = true,
+    path = "/Users/konrad/.local/share/nvim/site/pack/packer/start/vim-markdown",
+    url = "https://github.com/preservim/vim-markdown"
   }
 }
 
