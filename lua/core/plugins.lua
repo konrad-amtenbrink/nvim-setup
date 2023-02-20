@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
   use 'ellisonleao/gruvbox.nvim'
   use 'nvim-tree/nvim-tree.lua'
   use 'nvim-tree/nvim-web-devicons'
+  use 'feline-nvim/feline.nvim'
   use 'nvim-treesitter/nvim-treesitter'
   use 'tpope/vim-fugitive'
   use {
