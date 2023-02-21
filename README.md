@@ -59,6 +59,8 @@ Some of the shortcuts I use frequently are listed here. In the following shortcu
 | `<leader>t`       | Normal        | Fuzzy search through all git files                                       |
 | `<leader>w`       | Normal        | Write everything and quit nvim                                           |
 | `<leader>q`       | Normal        | Discard everything and quit nvim                                         |
+| `<leader>b`       | Normal        | Switch to the file explorer (also auto saves the current file)           |
+| `<leader>s`       | Normal        | Saves the current file                                                   |
 | `<leader>gs`      | Normal        | Open git view                                                            |
 | `<leader><leader>`| Normal        | Jump to beginning of line                                                |
 | `<control>n`      | Normal        | Open file explorer                                                       |

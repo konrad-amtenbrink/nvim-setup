@@ -10,6 +10,7 @@ vim.opt.termguicolors = true
 
 require("nvim-tree").setup({
   sort_by = "case_sensitive",
+  open_on_setup = true,
   view = {
     width = 30,
     mappings = {
