@@ -4,7 +4,7 @@ vim.g.mapleader = ' '
 vim.keymap.set('n', '<leader>pv', ':wq<Enter>')
 vim.keymap.set('n', '<leader>b', ':w<Enter><C-w>w')
 
-vim.keymap.set('n', '<leader>t', ':vsplit term://zsh<Enter>')
+vim.keymap.set('n', '<leader>T', ':vsplit term://zsh<Enter>')
 
 vim.keymap.set('i', 'jj', '<ESC>')
 vim.keymap.set('n', '<leader><leader>', '^')
