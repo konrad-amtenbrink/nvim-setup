@@ -57,8 +57,13 @@ Some of the shortcuts I use frequently are listed here. In the following shortcu
 |-------------------|---------------|--------------------------------------------------------------------------|
 | `<leader>pv`      | Normal        | Write and exit out the file                                              |
 | `<leader>t`       | Normal        | Fuzzy search through all git files                                       |
+| `<leader>w`       | Normal        | Write everything and quit nvim                                           |
+| `<leader>q`       | Normal        | Discard everything and quit nvim                                         |
 | `<leader>gs`      | Normal        | Open git view                                                            |
 | `<leader><leader>`| Normal        | Jump to beginning of line                                                |
+| `<control>n`      | Normal        | Open file explorer                                                       |
+| `gcc`             | Normal        | Comment out the current line                                             |
+| `gc`              | Visual        | Comment out the all selected lines                                       |
 | `jj`              | Insert        | Exit insert mode                                                         |
 
 
