@@ -61,6 +61,7 @@ Some of the shortcuts I use frequently are listed here. In the following shortcu
 | `<leader>q`       | Normal        | Discard everything and quit nvim                                         |
 | `<leader>b`       | Normal        | Switch to the file explorer (also auto saves the current file)           |
 | `<leader>s`       | Normal        | Saves the current file                                                   |
+| `<leader>t`       | Normal        | Opens a terminal in vertical split                                       |
 | `<leader>gs`      | Normal        | Open git view                                                            |
 | `<leader><leader>`| Normal        | Jump to beginning of line                                                |
 | `<control>n`      | Normal        | Open file explorer                                                       |
