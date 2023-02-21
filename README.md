@@ -55,10 +55,9 @@ Some of the shortcuts I use frequently are listed here. In the following shortcu
 
 | Shortcut          | Mode          | Description                                                              |
 |-------------------|---------------|--------------------------------------------------------------------------|
-| `<leader>pv`      | Normal        | Write and exit out the file                                              |
+| `<leader>w`       | Normal        | Write and exit out the file                                              |
 | `<leader>t`       | Normal        | Fuzzy search through all git files                                       |
-| `<leader>w`       | Normal        | Write everything and quit nvim                                           |
-| `<leader>q`       | Normal        | Discard everything and quit nvim                                         |
+| `<leader>q`       | Normal        | Write everything and quit nvim                                           |
 | `<leader>b`       | Normal        | Switch to the file explorer (also auto saves the current file)           |
 | `<leader>s`       | Normal        | Saves the current file                                                   |
 | `<leader>T`       | Normal        | Opens a terminal in vertical split                                       |
